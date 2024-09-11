@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		3E3359532C8B1D6100D5A89E /* DailyAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359522C8B1D6100D5A89E /* DailyAssistantApp.swift */; };
-		3E3359552C8B1D6100D5A89E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359542C8B1D6100D5A89E /* ContentView.swift */; };
 		3E3359572C8B1D6800D5A89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3359562C8B1D6800D5A89E /* Assets.xcassets */; };
 		3E33595A2C8B1D6800D5A89E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3359592C8B1D6800D5A89E /* Preview Assets.xcassets */; };
+		3E3359832C8C8D8900D5A89E /* FinanceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359822C8C8D8900D5A89E /* FinanceItem.swift */; };
+		3E3359852C8C8DA100D5A89E /* HealthHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359842C8C8DA100D5A89E /* HealthHabit.swift */; };
+		3E3359872C8C8E2B00D5A89E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359862C8C8E2B00D5A89E /* Reminder.swift */; };
+		3E3359892C8C8E5700D5A89E /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359882C8C8E5700D5A89E /* FinanceView.swift */; };
+		3E33598B2C8C8E8900D5A89E /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E33598A2C8C8E8900D5A89E /* HealthView.swift */; };
+		3E33598D2C8C8EB200D5A89E /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E33598C2C8C8EB200D5A89E /* RemindersView.swift */; };
+		3E33598F2C8C8ED500D5A89E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E33598E2C8C8ED500D5A89E /* MainView.swift */; };
+		3E3359912C8C8F6C00D5A89E /* AddFinanceItemForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359902C8C8F6C00D5A89E /* AddFinanceItemForm.swift */; };
+		3E3359932C8C92FF00D5A89E /* FinanceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359922C8C92FF00D5A89E /* FinanceRowView.swift */; };
+		3E3359952C8CA14300D5A89E /* EditRecurringExpenseForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359942C8CA14300D5A89E /* EditRecurringExpenseForm.swift */; };
+		3E3359972C8CA9B700D5A89E /* AddRecurringExpenseForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359962C8CA9B700D5A89E /* AddRecurringExpenseForm.swift */; };
+		3E3359992C8CB12400D5A89E /* RecurringExpanse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3359982C8CB12400D5A89E /* RecurringExpanse.swift */; };
+		3E33599B2C8CB13B00D5A89E /* ExpanseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E33599A2C8CB13B00D5A89E /* ExpanseCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E33594F2C8B1D6100D5A89E /* DailyAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3359522C8B1D6100D5A89E /* DailyAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAssistantApp.swift; sourceTree = "<group>"; };
-		3E3359542C8B1D6100D5A89E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E3359562C8B1D6800D5A89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E3359592C8B1D6800D5A89E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E3359822C8C8D8900D5A89E /* FinanceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceItem.swift; sourceTree = "<group>"; };
+		3E3359842C8C8DA100D5A89E /* HealthHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHabit.swift; sourceTree = "<group>"; };
+		3E3359862C8C8E2B00D5A89E /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		3E3359882C8C8E5700D5A89E /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		3E33598A2C8C8E8900D5A89E /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		3E33598C2C8C8EB200D5A89E /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		3E33598E2C8C8ED500D5A89E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3E3359902C8C8F6C00D5A89E /* AddFinanceItemForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFinanceItemForm.swift; sourceTree = "<group>"; };
+		3E3359922C8C92FF00D5A89E /* FinanceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceRowView.swift; sourceTree = "<group>"; };
+		3E3359942C8CA14300D5A89E /* EditRecurringExpenseForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecurringExpenseForm.swift; sourceTree = "<group>"; };
+		3E3359962C8CA9B700D5A89E /* AddRecurringExpenseForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecurringExpenseForm.swift; sourceTree = "<group>"; };
+		3E3359982C8CB12400D5A89E /* RecurringExpanse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringExpanse.swift; sourceTree = "<group>"; };
+		3E33599A2C8CB13B00D5A89E /* ExpanseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpanseCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +75,20 @@
 		3E3359512C8B1D6100D5A89E /* DailyAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				3E3359982C8CB12400D5A89E /* RecurringExpanse.swift */,
+				3E33599A2C8CB13B00D5A89E /* ExpanseCategory.swift */,
+				3E3359962C8CA9B700D5A89E /* AddRecurringExpenseForm.swift */,
+				3E3359922C8C92FF00D5A89E /* FinanceRowView.swift */,
+				3E3359902C8C8F6C00D5A89E /* AddFinanceItemForm.swift */,
+				3E3359942C8CA14300D5A89E /* EditRecurringExpenseForm.swift */,
+				3E33598C2C8C8EB200D5A89E /* RemindersView.swift */,
+				3E3359882C8C8E5700D5A89E /* FinanceView.swift */,
+				3E3359862C8C8E2B00D5A89E /* Reminder.swift */,
+				3E33598E2C8C8ED500D5A89E /* MainView.swift */,
+				3E3359822C8C8D8900D5A89E /* FinanceItem.swift */,
+				3E3359842C8C8DA100D5A89E /* HealthHabit.swift */,
 				3E3359522C8B1D6100D5A89E /* DailyAssistantApp.swift */,
-				3E3359542C8B1D6100D5A89E /* ContentView.swift */,
+				3E33598A2C8C8E8900D5A89E /* HealthView.swift */,
 				3E3359562C8B1D6800D5A89E /* Assets.xcassets */,
 				3E3359582C8B1D6800D5A89E /* Preview Content */,
 			);
@@ -137,8 +173,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E3359552C8B1D6100D5A89E /* ContentView.swift in Sources */,
+				3E3359932C8C92FF00D5A89E /* FinanceRowView.swift in Sources */,
+				3E33598D2C8C8EB200D5A89E /* RemindersView.swift in Sources */,
+				3E33598B2C8C8E8900D5A89E /* HealthView.swift in Sources */,
 				3E3359532C8B1D6100D5A89E /* DailyAssistantApp.swift in Sources */,
+				3E3359872C8C8E2B00D5A89E /* Reminder.swift in Sources */,
+				3E3359912C8C8F6C00D5A89E /* AddFinanceItemForm.swift in Sources */,
+				3E3359972C8CA9B700D5A89E /* AddRecurringExpenseForm.swift in Sources */,
+				3E3359992C8CB12400D5A89E /* RecurringExpanse.swift in Sources */,
+				3E3359952C8CA14300D5A89E /* EditRecurringExpenseForm.swift in Sources */,
+				3E33598F2C8C8ED500D5A89E /* MainView.swift in Sources */,
+				3E3359852C8C8DA100D5A89E /* HealthHabit.swift in Sources */,
+				3E3359832C8C8D8900D5A89E /* FinanceItem.swift in Sources */,
+				3E33599B2C8CB13B00D5A89E /* ExpanseCategory.swift in Sources */,
+				3E3359892C8C8E5700D5A89E /* FinanceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
